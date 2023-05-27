@@ -19,10 +19,10 @@ NEWSPIDER_MODULE = "california.spiders"
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
 
-DOWNLOAD_HANDLERS = {
-    "http": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
-    "https": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
-}
+# DOWNLOAD_HANDLERS = {
+#     "http": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+#     "https": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+# }
 
 PLAYWRIGHT_LAUNCH_OPTIONS = {"headless": False}
 
